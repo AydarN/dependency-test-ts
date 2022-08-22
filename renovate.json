@@ -7,4 +7,9 @@
   "commitMessageSuffix": "[SECURITY]",
   "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
   "prCreation": "immediate"
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "automerge": false,
+    "assignees": ["@aydarn"]
+  }
 }
