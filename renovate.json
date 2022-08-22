@@ -6,7 +6,7 @@
   "rangeStrategy": "update-lockfile",
   "commitMessageSuffix": "[SECURITY]",
   "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
-  "prCreation": "immediate"
+  "prCreation": "immediate",
   "vulnerabilityAlerts": {
     "labels": ["security"],
     "automerge": false,
