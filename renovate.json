@@ -1,15 +1,9 @@
 {
-  "groupName": null,
-  "schedule": [],
-  "dependencyDashboardApproval": true,
-  "stabilityDays": 0,
-  "rangeStrategy": "update-lockfile",
-  "commitMessageSuffix": "[SECURITY]",
-  "branchTopic": "{{{datasource}}}-{{{depName}}}-vulnerability",
-  "prCreation": "immediate",
+  "packageRules": [{
+    "packagePatterns": ["*"],
+    "enabled": false
+  }],
   "vulnerabilityAlerts": {
-    "labels": ["security"],
-    "automerge": false,
-    "assignees": ["@aydarn"]
+    "enabled": true
   }
 }
