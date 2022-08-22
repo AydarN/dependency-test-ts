@@ -1,4 +1,5 @@
 {
+  "dependencyDashboardApproval": true,
   "packageRules": [{
     "packagePatterns": ["*"],
     "enabled": false
